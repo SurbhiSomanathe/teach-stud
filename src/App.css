@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+body{
+    margin: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainlist{
+   text-Align:center;
+   font-Size:xx-large;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   border: 2px solid black;
+   background-color: rgb(23, 7, 7);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.portal{
+    text-align: center;
+    background-color: rgb(245, 233, 233);
+        padding: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Details{
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+    padding: 20px;
+    font-Size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.portall{
+    margin-Left:500px;
+    margin-Right:500px;
+    margin-Top:70px;
+    font-Size:25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(240, 236, 236);
 }
